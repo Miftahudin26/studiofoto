@@ -2056,7 +2056,7 @@ section {
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #1e1e1e;
+  background: #000000;
 }
 
 #footer .footer-top .footer-contact {
@@ -2203,3 +2203,47 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
+#main {
+  color: #fff;
+  text-align: center;
+}
+
+#main h1 {
+  border-bottom: 5px solid #EBC351;
+  text-align: center;
+
+}
+
+
+#services .width-services {
+  width: 500px;
+}
+
+
+#services .konten-service{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+#serviceImg{
+  margin-right: -10px;
+}
+
+#servicesKonten {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 150px;
+  padding-right: 150px;
+  margin-left: -400px;
+}
+  
+#main #services #servicesKonten #textContent {
+text-align: left;
+}
+
+
+
+
