@@ -136,7 +136,7 @@ class ImageController extends Controller
         foreach($image as $multi_img){
     
             $generate_id = hexdec(uniqid()).'.'.$multi_img->getClientOriginalExtension();
-            Image::make($multi_img)->resize(300, 200)->save('image/multipic/'. $generate_id);
+            Image::make($multi_img)->resize(500, 500)->save('image/multipic/'. $generate_id);
     
             $last_img = 'image/multipic/'.$generate_id;
     

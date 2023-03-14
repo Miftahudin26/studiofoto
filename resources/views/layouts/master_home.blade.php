@@ -48,8 +48,8 @@
     @yield('home_content')
 
     <img src="" alt="">
-    <a aria-label="Chat on WhatsApp" href="https://wa.me/1XXXXXXXXXX"> <img alt="Chat on WhatsApp" src="WhatsAppButtonGreenLarge.png" /> </a>
-    <a aria-label="Chat on WhatsApp" href="https://wa.me/1XXXXXXXXXX"> <img alt="Chat on WhatsApp" src="WhatsAppButtonGreenLarge.svg" /> </a>
+    <a aria-label="Chat on WhatsApp" href="https://wa.me/1XXXXXXXXXX"> <img alt="Chat on WhatsApp" src="https://icons8.com/icon/16713/whatsapp" /> </a>
+    <a aria-label="Chat on WhatsApp" href="https://wa.me/1XXXXXXXXXX"> <img alt="Chat on WhatsApp" src="https://icons8.com/icon/16713/whatsapp" /> </a>
   </main>
   <!-- End #main -->
 

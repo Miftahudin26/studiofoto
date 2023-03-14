@@ -15,10 +15,10 @@ class CategoryController extends Controller
 {
 
     // keamanan untuk diteruskan ke page login
-    public function __construct()
-    {
-        $this->middleware('auth');
-    }
+    // public function __construct()
+    // {
+    //     $this->middleware('auth');
+    // }
 
     public function index(){
 
@@ -126,5 +126,9 @@ class CategoryController extends Controller
         $delete = Category::onlyTrashed()->find($id)->forceDelete();
         return redirect()->back()->with('succes', 'Data Berhasil Dihapus');
 
+    }
+
+    public function FormReserv(){
+        return view('reservasi');
     }
 }

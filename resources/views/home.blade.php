@@ -8,7 +8,7 @@
     <div class="row content">
       <div class="col-lg-6" data-aos="fade-right">
         <h2>MIX STUDIO</h2>
-        <h3> yang PROFESSIONAL UNTUK BISNIS ANDA</h3>
+        <h3>PROFESSIONAL UNTUK BISNIS ANDA</h3>
         <p>
           Kami menyediakan Jasa Fotografi Jakarta dengan fotografer professional dan peralatan foto studio lengkap sehingga hasil foto dapat melejitkan nilai perusahaan anda di mata pelanggan. Kontak kami untuk mendapatkan penawaran Jasa Fotografi Jakarta dengan harga yang terjangkau.
         </p>
@@ -154,10 +154,8 @@
       <div class="col-lg-4 col-md-6 portfolio-item filter-app">
         <img src="{{ $produk->image }}" class="img-fluid" alt="">
         <div class="portfolio-info">
-          <h4>App 1</h4>
-          <p>App</p>
-          <a href="{{ $produk->image }}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-          <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+          <a href="{{ $produk->image }}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="">
+            {{-- <i class="bx bx-plus"></i></a>    --}}
         </div>
       </div>
       @endforeach
@@ -253,7 +251,7 @@
   <div class="container" data-aos="fade-up">
 
     <div class="section-title">
-      <h2>Brands</h2>
+      <h2></h2>
     </div>
 
     <div class="row no-gutters clients-wrap clearfix" data-aos="fade-up">

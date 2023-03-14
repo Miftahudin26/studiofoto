@@ -151,7 +151,8 @@
         </div>
 
       </div>
-    </section><!-- End Pricing Section -->
+    </section>
+    <!-- End Pricing Section -->
 
     <!-- ======= Frequently Asked Questions Section ======= -->
     {{-- <section id="faq" class="faq section-bg">

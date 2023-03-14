@@ -93,6 +93,10 @@ Route::post('/update/slider/{id}', [HomeController::class, 'updateSlider']);
 
 Route::get('/delete/slider/{id}', [HomeController::class, 'deleteSlider']);
 
+// reservasi
+Route::get('/reservasi', [CategoryController::class, 'FormReserv'])->name('all.reservasi');
+Route::post('/reservasi/add', [CategoryController::class, 'addReservasi'])->name('store.reservasi');
+
 
 Route::middleware([
     'auth:sanctum',
