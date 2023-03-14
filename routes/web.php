@@ -112,3 +112,5 @@ Route::middleware([
 });
 
 Route::get('/user/logout/', [ImageController::class, 'logout'])->name('user.logout');
+
+Route::get('detail/service', [CategoryController::class, 'viewDetail']);
