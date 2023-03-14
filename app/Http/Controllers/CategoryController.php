@@ -128,7 +128,22 @@ class CategoryController extends Controller
 
     }
 
+
     public function FormReserv(){
         return view('reservasi');
+    }
+
+    public function viewDetail(){
+
+        // (ORM)mau get semua data (tanggal) dari model & pemanggilan data name lewat category model
+        //$categories = Category::latest()->paginate(9);
+
+        // Query builder againnn ngambil lansung dari database & panggil name pencocokan tabel users dan categories
+        // $categories = DB::table('categories')
+        //     ->join('users', 'categories.id_user', 'users.id')
+        //     ->select('categories.*', 'users.name')
+        //     ->latest()->paginate(9);
+
+        return view('paket');
     }
 }

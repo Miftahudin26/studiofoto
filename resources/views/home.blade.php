@@ -1,5 +1,5 @@
 @extends('layouts.master_home')
-'
+
 @section('home_content')
   <!-- ======= About Us Section ======= -->
 <section id="about-us" class="about-us">
@@ -14,7 +14,7 @@
         </p>
       </div>
       <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left">
-
+     
         <ul>
           <li><i class="ri-check-double-line"></i> Terpercaya</li>
           <p class="fst-italic">
