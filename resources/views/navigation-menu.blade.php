@@ -29,6 +29,10 @@
                     <x-jet-nav-link href="{{ route('multi.pic') }}" :active="request()->routeIs('multi.pic')">
                         Multiple Image
                     </x-jet-nav-link>
+                    {{-- <x-jet-nav-link href="{{ route('reservasi') }}" :active="request()->routeIs('reservasi')">
+                        Reservasi
+                    </x-jet-nav-link> --}}
+
                 </div>
             </div>
 

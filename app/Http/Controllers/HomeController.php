@@ -46,11 +46,11 @@ class HomeController extends Controller
     public function updateSlider(Request $request, $id){
 
         $validated = $request->validate([
-            'title' => 'required|unique:images|max:100',
+            'title' => 'required|unique:text|max:100',
             'description' => 'required|unique:images|max:255',
             'image' => 'required|mimes : jpeg,jpg,png',
         ],[
-            'image.required' => 'Judul Image tidak boleh kosong!'
+            'title.required' => 'Judul Image tidak boleh kosong!'
         ]);
 
         $old_image = $request->old_image;
@@ -70,6 +70,9 @@ class HomeController extends Controller
 
         // menimpa dan menghapus file lama
         unlink($old_image);
+
+        // $data = Slider::find($id);
+        // $data->update($request->all());
 
         // ORM
         Slider::find($id)->update([

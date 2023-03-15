@@ -51,7 +51,7 @@
   </div>
 
 
-  <div class="row">
+  {{-- <div class="row">
   <div class="col-xl-8 col-md-12">
       <!-- Sales Graph -->
       <div class="card card-default" data-scroll-height="675">
@@ -736,11 +736,11 @@
             <span class="text-dark ml-3">$50</span>
           </p>
         </div>
+      </div> 
       </div>
-      </div>
   </div>
   </div>
-  </div>
+  </div>--}}
 
 
 @endsection

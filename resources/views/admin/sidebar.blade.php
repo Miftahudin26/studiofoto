@@ -65,20 +65,15 @@
                         
                       </a>
                     </li>
-                  
-                
-                  
-                    <li >
-                      <a class="sidenav-item-link" href="analytics.html">
-                        <span class="nav-text">Analytics</span>
-                        
-                        <span class="badge badge-success">new</span>
+                    
+                    
+                    <li  class="active" >
+                      <a class="sidenav-item-link" href="{{ route('reservasi') }}">
+                        <span class="nav-text">Reservasi</span>
                         
                       </a>
                     </li>
                   
-                
-
                 
               </div>
             </ul>
@@ -86,7 +81,7 @@
         
 
         
-
+{{-- 
         
           <li  class="has-sub" >
             <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#ui-elements"
@@ -525,7 +520,7 @@
             </ul>
           </li>
       </ul>
-    </div>
+    </div> --}}
 
 
 

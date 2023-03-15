@@ -5,6 +5,7 @@ use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ImageController;
 use App\Http\Controllers\PortofolioController;
+use App\Http\Controllers\ReservasiController;
 use App\Http\Controllers\ServiceController;
 use App\Models\Multipic;
 use App\Models\Produk;
@@ -118,3 +119,13 @@ Route::middleware([
 Route::get('/user/logout/', [ImageController::class, 'logout'])->name('user.logout');
 
 Route::get('detail/service', [CategoryController::class, 'viewDetail']);
+
+
+// Route::get('/reservasi', [ReservasiController::class, 'index'])->name('reservasi');
+
+//admin
+Route::get('/reservasi', [ReservasiController::class, 'index'])->name('reservasi');
+
+Route::get('/add/reservasi', [ReservasiController::class, 'addReservasi'])->name('addReservasi');
+
+Route::post('/insertdata', [ReservasiController::class, 'insertdata'])->name('insertdata');
