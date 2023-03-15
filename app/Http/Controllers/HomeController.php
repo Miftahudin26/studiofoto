@@ -92,4 +92,8 @@ class HomeController extends Controller
         return redirect()->back()->with('succes', 'Data berhasil di hapus');
 
     }
+
+    public function about() {
+        return view('about');
+    }
 } 
