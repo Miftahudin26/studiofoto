@@ -64,11 +64,11 @@
       <div class="container" data-aos="fade-up">
 
         <div class="row content">
-          <div class="col-lg-6" data-aos="fade-right">
+          <div class="col-lg-6 text-dark" data-aos="fade-right">
             <h2>MIX STUDIO</h2>
             <h3>PROFESSIONAL UNTUK BISNIS ANDA</h3>
           </div>
-          <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left">
+          <div class="col-lg-6 pt-4 pt-lg-0 text-dark" data-aos="fade-left">
             <!-- <p>
               Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
               velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
@@ -106,7 +106,7 @@
     <section id="team" class="team section-bg">
       <div class="container">
 
-        <div class="section-title" data-aos="fade-up">
+        <div class="section-title text-dark" data-aos="fade-up">
           <h2>Our <strong>Team</strong> Studio</h2>
           <p></p>
         </div>
