@@ -66,8 +66,8 @@
 
         <div class="row">
 
-          <div class="">
-            <h1 class="justify-content-center text-center">POTRAITS</h1>
+          <div class="mt-5">
+            <h1 class="justify-content-center text-center text-dark">POTRAITS</h1>
             <hr class="w-25 mx-auto">
           </div>
 
@@ -85,9 +85,7 @@
                 <!-- <li class="na">Pharetra massa</li>
                 <li class="na">Massa ultricies mi</li> -->
               </ul>
-              <div class="btn-wrap">
-                <a href="" class="btn-buy">Reservasi</a>
-              </div>
+              
             </div>
           </div>
 
@@ -105,9 +103,7 @@
 
                 <!-- <li class="na">* khusus makanan tidak ada kostum</li> -->
               </ul>
-              <div class="btn-wrap">
-                <a href="" class="btn-buy">Reservasi</a>
-              </div>
+              
             </div>
           </div>
 
@@ -124,9 +120,7 @@
                 <li>1 cetak ukuran 12R + bingkai</li>
 
               </ul>
-              <div class="btn-wrap">
-                <a href="" class="btn-buy">Reservasi</a>
-              </div>
+             
             </div>
           </div>
 
@@ -142,9 +136,235 @@
                 <li>.</li>
                 <li>.</li>
               </ul>
-              <div class="btn-wrap">
-                <a href="" class="btn-buy">Reservasi</a>
-              </div>
+           
+            </div>
+          </div>
+
+        </div>
+        <div class="row">
+
+          <div class="mt-5">
+            <h1 class="justify-content-center text-center text-dark">FAMILY</h1>
+            <hr class="w-25 mx-auto">
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="box featured">
+              <h3>Package A</h3>
+              <h4><sup>IDR</sup>150<span> / Package</span></h4>
+              <ul>
+                <li>File pemotretan</li>
+                <li>5 pose, 5 edit foto</li>
+                <li>max 5 orang</li>
+                <li>1 kostum (bawa sendiri)</li>
+                <li>1 background</li>
+                <li>1 cetak ukuran 4R</li>
+                <!-- <li class="na">Pharetra massa</li>
+                <li class="na">Massa ultricies mi</li> -->
+              </ul>
+             
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
+            <div class="box featured">
+              <h3>Package B</h3>
+              <h4><sup>IDR</sup>200<span> / Package</span></h4>
+              <ul>
+                <li>File pemotretan</li>
+                <li>10 pose,10 edit foto</li>
+                <li>max 6 orang</li>
+                <li>1 kostum (bawa sendiri)</li>
+                <li>2 background</li>
+                <li>5 cetak ukuran 4R</li>
+
+                <!-- <li class="na">* khusus makanan tidak ada kostum</li> -->
+              </ul>
+             
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+            <div class="box featured">
+              <h3>Package C</h3>
+              <h4><sup>IDR</sup>250<span> / Package</span></h4>
+              <ul>
+                <li>File pemotretan</li>
+                <li>Pose sepuasnya selama 1 jam, 10 edit</li>
+                <li>max 6 orang</li>
+                <li>2 kostum (bawa sendiri)</li>
+                <li>2 background</li>
+                <li>1 cetak ukuran 12R + bingkai</li>
+
+              </ul>
+              
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+            <div class="box">
+              <span class="advanced">Advanced</span>
+              <h3>Custom</h3>
+              <h4><sup>$</sup>49<span> / month</span></h4>
+              <ul>
+                <li>Paket Custom</li>
+                <li>.</li>
+                <li>.</li>
+                <li>.</li>
+                <li>.</li>
+              </ul>
+              
+            </div>
+          </div>
+
+        </div>
+        <div class="row">
+
+          <div class="mt-5">
+            <h1 class="justify-content-center text-center text-dark">MATERNITY</h1>
+            <hr class="w-25 mx-auto">
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="box featured">
+              <h3>Package A</h3>
+              <h4><sup>IDR</sup>150<span> / Package</span></h4>
+              <ul>
+                <li>File pemotretan</li>
+                <li>5 pose, 5 edit foto</li>
+                <li>max 2 orang</li>
+                <li>1 kostum (bawa sendiri)</li>
+                <li>1 background</li>
+                <li>1 cetak ukuran 4R</li>
+                <!-- <li class="na">Pharetra massa</li>
+                <li class="na">Massa ultricies mi</li> -->
+              </ul>
+              
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
+            <div class="box featured">
+              <h3>Package B</h3>
+              <h4><sup>IDR</sup>200<span> / Package</span></h4>
+              <ul>
+                <li>File pemotretan</li>
+                <li>10 pose,10 edit foto</li>
+                <li>max 2 orang</li>
+                <li>1 kostum (bawa sendiri)</li>
+                <li>2 background</li>
+                <li>5 cetak ukuran 4R</li>
+
+                <!-- <li class="na">* khusus makanan tidak ada kostum</li> -->
+              </ul>
+            
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+            <div class="box featured">
+              <h3>Package C</h3>
+              <h4><sup>IDR</sup>250<span> / Package</span></h4>
+              <ul>
+                <li>File pemotretan</li>
+                <li>Pose sepuasnya selama 1 jam, 10 edit</li>
+                <li>max 2 orang</li>
+                <li>2 kostum (bawa sendiri)</li>
+                <li>2 background</li>
+                <li>1 cetak ukuran 12R + bingkai</li>
+
+              </ul>
+             
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+            <div class="box">
+              <span class="advanced">Advanced</span>
+              <h3>Custom</h3>
+              <h4><sup>$</sup>49<span> / month</span></h4>
+              <ul>
+                <li>Paket Custom</li>
+                <li>.</li>
+                <li>.</li>
+                <li>.</li>
+                <li>.</li>
+              </ul>
+             
+            </div>
+          </div>
+
+        </div>
+        <div class="row">
+
+          <div class="mt-5">
+            <h1 class="justify-content-center text-center text-dark">FOOD</h1>
+            <hr class="w-25 mx-auto">
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="box featured">
+              <h3>Package A</h3>
+              <h4><sup>IDR</sup>150<span> / Package</span></h4>
+              <ul>
+                <li>File pemotretan</li>
+                <li>5 pose, 5 edit foto</li>
+                <li>max 1 makanan</li>
+                <li>1 background</li>
+                <li>1 cetak ukuran 4R</li>
+                <!-- <li class="na">Pharetra massa</li>
+                <li class="na">Massa ultricies mi</li> -->
+              </ul>
+            
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
+            <div class="box featured">
+              <h3>Package B</h3>
+              <h4><sup>IDR</sup>200<span> / Package</span></h4>
+              <ul>
+                <li>File pemotretan</li>
+                <li>10 pose,10 edit foto</li>
+                <li>max 1 makanan</li>
+                <li>2 background</li>
+                <li>5 cetak ukuran 4R</li>
+
+                <!-- <li class="na">* khusus makanan tidak ada kostum</li> -->
+              </ul>
+              
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+            <div class="box featured">
+              <h3>Package C</h3>
+              <h4><sup>IDR</sup>250<span> / Package</span></h4>
+              <ul>
+                <li>File pemotretan</li>
+                <li>Pose sepuasnya selama 1 jam, 10 edit</li>
+                <li>max 2 makanan</li>
+                <li>2 kostum (bawa sendiri)</li>
+                <li>2 background</li>
+                <li>1 cetak ukuran 12R + bingkai</li>
+
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+            <div class="box">
+              <span class="advanced">Advanced</span>
+              <h3>Custom</h3>
+              <h4><sup>$</sup>49<span> / month</span></h4>
+              <ul>
+                <li>Paket Custom</li>
+                <li>.</li>
+                <li>.</li>
+                <li>.</li>
+                <li>.</li>
+              </ul>
+             
             </div>
           </div>
 
