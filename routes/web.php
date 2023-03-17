@@ -37,7 +37,7 @@ Route::get('/', function () {
 
 Route::get('/about', [HomeController::class, 'about'])->name('about');
 
-Route::get('/service', [ServiceController::class, 'index'])->name('layanan');
+Route::get('/harga', [ServiceController::class, 'index'])->name('layanan');
 
 Route::get('/portofolio', [PortofolioController::class, 'index'])->name('porto');
 

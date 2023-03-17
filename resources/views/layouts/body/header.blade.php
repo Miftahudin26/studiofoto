@@ -9,17 +9,10 @@
       <ul>
         <li><a href="" class="active">Home</a></li>
 
-        <li class="dropdown"><a href=""><span>About</span> <i class="bi bi-chevron-down"></i></a>
-          <ul>
-            <li><a href="">About Us</a></li>
-            <li><a href="">Team</a></li>
-            <li><a href="">Testimonials</a></li>
-          </ul>
-        </li>
+        <li><a href="/about">About Us</a></li>
 
-        <li><a href="{{ route('layanan') }}">Services</a></li>
-        <li><a href="">Portfolio</a></li>
-        <li><a href="">Pricing</a></li>
+        <li><a href="/detail/service">Services</a></li>
+        <li><a href="/harga">Pricing</a></li>
         <li><a href="">Blog</a></li>
         {{-- <li><a href="">Contact</a></li> --}}
 

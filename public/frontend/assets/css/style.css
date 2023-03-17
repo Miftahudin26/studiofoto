@@ -2215,10 +2215,24 @@ section {
 }
 
 #main h1 {
-  border-bottom: 5px solid #EBC351;
-  text-align: center;
+    border-bottom: 5px solid #EBC351;
+    display: flex;
+    width: 15%;
+    justify-content: center;
+    align-items: center;
+  }
 
-}
+  div.service-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  div.service-center h1 {
+    border-bottom: 5px solid #EBC351;
+    text-align: center;
+  }
+
 
 
 #services .width-services {
@@ -2248,3 +2262,27 @@ section {
 #main #services #servicesKonten #textContent {
 text-align: left;
 }
+ .color {
+    background-color: red;
+ }
+
+ .jkt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ }
+
+ div.mt-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  div.mt-5 h1, div.mt-5 hr {
+    width: 50%;
+    text-align: center;
+  }
+  
