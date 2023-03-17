@@ -55,7 +55,7 @@
             <div id="servicesKonten" class="col">
                 <div class="bg-white width-services">
                     <div id="textContent" class="konten-service text-dark">
-                        <h3>Potrait</h3>
+                        <h3>Potret</h3>
                         <hr>
                         <h5 class="mt-3">3 jam</h5>
                         <h5 class="mt-3">Varian & Harga</h5>
@@ -73,7 +73,7 @@
             <div id="servicesKonten" class="col">
                 <div class="bg-white width-services">
                     <div id="textContent" class="konten-service text-dark">
-                        <h3>Potrait</h3>
+                        <h3>Grup</h3>
                         <hr>
                         <h5 class="mt-3">3 jam</h5>
                         <h5 class="mt-3">Varian & Harga</h5>
@@ -91,7 +91,7 @@
             <div id="servicesKonten" class="col">
                 <div class="bg-white width-services">
                     <div id="textContent" class="konten-service text-dark">
-                        <h3>Potrait</h3>
+                        <h3>Maternity</h3>
                         <hr>
                         <h5 class="mt-3">1 jam 30 menit</h5>
                         <h5 class="mt-3">Varian & Harga</h5>
@@ -109,7 +109,7 @@
             <div id="servicesKonten" class="col">
                 <div class="bg-white width-services">
                     <div id="textContent" class="konten-service text-dark">
-                        <h3>Potrait</h3>
+                        <h3>Produk</h3>
                         <hr>
                         <h5 class="mt-3">1 jam 30 menit</h5>
                         <h5 class="mt-3">Varian & Harga</h5>

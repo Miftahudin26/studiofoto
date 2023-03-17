@@ -5,7 +5,7 @@
 <section id="about-us" class="about-us">
   <div class="container" data-aos="fade-up">
 
-    <div class="row content">
+    <div class="row content text-dark">
       <div class="col-lg-6" data-aos="fade-right">
         <h2>MIX STUDIO</h2>
         <h3>PROFESSIONAL UNTUK BISNIS ANDA</h3>
@@ -40,7 +40,7 @@
 </section><!-- End About Us Section -->
 
 <!-- ======= Services Section ======= -->
-<section id="services" class="services section-bg">
+{{-- <section id="services" class="services section-bg">
   <div class="container" data-aos="fade-up">
 
     <div class="row">
@@ -125,10 +125,11 @@
     </div>
 
   </div>
-</section><!-- End Services Section -->
+</section> --}}
+<!-- End Services Section -->
 
 <!-- ======= Portfolio Section ======= -->
-<section id="portfolio" class="portfolio">
+<section id="portfolio" class="portfolio text-dark">
   <div class="container">
 
     <div class="section-title">
