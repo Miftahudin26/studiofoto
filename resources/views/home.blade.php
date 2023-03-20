@@ -133,7 +133,7 @@
   <div class="container">
 
     <div class="section-title">
-      <h2>Potofolio</h2>
+      <h2>Portofolio</h2>
     </div>
 
     {{-- <div class="row" data-aos="fade-up">

@@ -171,7 +171,7 @@
         <div class="row">
 
           <div class="mt-5">
-            <h1 class="justify-content-center text-center text-dark">FAMILY</h1>
+            <h1 class="justify-content-center text-center text-dark">MATERNITY</h1>
             <hr class="w-25 mx-auto">
           </div>
 
@@ -248,7 +248,7 @@
         <div class="row">
 
           <div class="mt-5">
-            <h1 class="justify-content-center text-center text-dark">MATERNITY</h1>
+            <h1 class="justify-content-center text-center text-dark">FAMILY</h1>
             <hr class="w-25 mx-auto">
           </div>
 
