@@ -66,7 +66,7 @@ Route::get('category/restore/{id}', [CategoryController::class, 'restoreCat']);
 Route::get('category/pdelete/{id}', [CategoryController::class, 'permanentDelete']);
 
 // ROUTE IMAGE PAGE
-Route::get('/all/image', [ImageController::class, 'index'])->name('all.image');
+Route::get('/admin/all/image', [ImageController::class, 'index'])->name('all.image');
 
 Route::get('/edit/image/{id}', [ImageController::class, 'editImage']);
 
@@ -77,14 +77,14 @@ Route::post('/update/image/{id}', [ImageController::class, 'updateImage']);
 Route::get('/delete/image/{id}', [ImageController::class, 'deleteImage']);
 
 // Multiple image
-Route::get('/multi/pic', [ImageController::class, 'multiPic'])->name('multi.pic');
+Route::get('/admin/multi/pic', [ImageController::class, 'multiPic'])->name('multi.pic');
 
 Route::post('/multi/add', [ImageController::class, 'multiAdd'])->name('multi.add');
 
 Route::get('/delete/multi/{id}', [ImageController::class, 'deleteMulti']);
 
 // ini route admin slider
-Route::get('/home/slider', [HomeController::class, 'homeSlider'])->name('home.slider');
+Route::get('/admin/home/slider', [HomeController::class, 'homeSlider'])->name('home.slider');
 
 Route::get('/add/slider', [HomeController::class, 'addSlider'])->name('add.slider');
 
@@ -126,8 +126,12 @@ Route::get('detail/service', [CategoryController::class, 'viewDetail']);
 // Route::get('/reservasi', [ReservasiController::class, 'index'])->name('reservasi');
 
 //admin
-Route::get('/reservasi', [ReservasiController::class, 'index'])->name('reservasi');
+Route::get('/admin/reservasi', [ReservasiController::class, 'index'])->name('reservasi');
 
 Route::get('/add/reservasi', [ReservasiController::class, 'addReservasi'])->name('addReservasi');
 
 Route::post('/insertdata', [ReservasiController::class, 'insertdata'])->name('insertdata');
+
+//pdf
+
+Route::get('/exportpdf', [ReservasiController::class, 'exportpdf'])->name('exportpdf');

@@ -68,42 +68,46 @@
           <form action="/insertdata" method="POST" enctype="multipart/form-data">
 
             @csrf
-            <div class="mb-3">
-              <label for="nama" class="form-label">Nama Lengkap</label>
-              <input type="text" class="form-control" id="nama" name="name" />
+
+            <div class="form d-flex flex-column text-start">
+              <div class="mb-3">
+                <label for="nama" class="form-label">Nama Lengkap</label>
+                <input type="text" class="form-control" id="nama" name="name" />
+              </div>
+    
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" name="email" />
+              </div>
+    
+              <div class="mb-3">
+                <label for="telepon" class="form-label">Nomor Telepon</label>
+                <input type="text" class="form-control" id="nohp" name="nohp" />
+              </div>
+    
+              <div class="mb-3">
+                <label for="alamat" class="form-label">Alamat</label>
+                <textarea class="form-control" id="alamat" name="alamat" rows="3"></textarea>
+              </div>
+    
+              <div class="mb-3">
+                <label for="tanggal" class="form-label">Tanggal Reservasi</label>
+                <input type="date" class="form-control" id="tanggal" name="tanggal" />
+              </div>
+    
+              <div id="selectCategoryPaket" class="mb-3">
+                <label for="paket" class="form-label" ">Paket</label>
+                <select  class="form-select" id="kamar" name="paket" onchange="showPaket(this)">
+                  <option value="1">Potraits</option>
+                  <option>-----------------</option>
+                  <option value="1">Potraits</option>
+                  <option value="2">Family</option>
+                  <option value="3">Paket 3</option>
+                  <option value="4">Custom</option>
+                </select>
+              </div>
             </div>
-  
-            <div class="mb-3">
-              <label for="email" class="form-label">Email</label>
-              <input type="email" class="form-control" id="email" name="email" />
-            </div>
-  
-            <div class="mb-3">
-              <label for="telepon" class="form-label">Nomor Telepon</label>
-              <input type="tel" class="form-control" id="telepon" name="nohp" />
-            </div>
-  
-            <div class="mb-3">
-              <label for="alamat" class="form-label">Alamat Lengkap</label>
-              <textarea class="form-control" id="alamat" name="alamat" rows="3"></textarea>
-            </div>
-  
-            <div class="mb-3">
-              <label for="tanggal" class="form-label">Tanggal Reservasi</label>
-              <input type="date" class="form-control" id="tanggal" name="tanggal" />
-            </div>
-  
-            <div id="selectCategoryPaket" class="mb-3">
-              <label for="paket" class="form-label" ">Paket</label>
-              <select  class="form-select" id="kamar" name="paket" onchange="showPaket(this)">
-                <option value="1">Potraits</option>
-                <option>-----------------</option>
-                <option value="1">Potraits</option>
-                <option value="2">Family</option>
-                <option value="3">Paket 3</option>
-                <option value="4">Custom</option>
-              </select>
-            </div>
+            
 
             {{-- <div id="pilihPaket" class="mb-3 d-none">
               <label for="paket" class="form-label">Potrait</label>

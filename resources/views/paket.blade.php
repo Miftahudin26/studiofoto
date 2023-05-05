@@ -87,7 +87,11 @@
                         <hr>
                         <h5 class="mt-3">3 jam</h5>
                         <h5 class="mt-3">Varian & Harga</h5>
-                        <button type="button" class="btn btn-outline-dark mt-3">Book Now</button>
+                        <a href="">
+                            {{-- {{ route('#') }} --}}
+                            <button type="button" class="btn btn-outline-dark mt-3">Book Now</button>
+                        </a>
+                        
 
                     </div>
                     
